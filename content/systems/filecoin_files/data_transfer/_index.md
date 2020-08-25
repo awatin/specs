@@ -18,8 +18,7 @@ This diagram shows how Data Transfer and its modules fit into the picture with t
 In particular, note how the Data Transfer Request Validators from the markets are plugged into the Data Transfer module,
 but their code belongs in the Markets system.
 
-{{<figure src="data-transfer-modules.png" title="Data Transfer - Push Flow" zoom="true">}}
-
+![Data Transfer](data-transfer-modules.png)
 
 ## Terminology
 
@@ -47,7 +46,7 @@ or potentially the same round trip, where the requesting party implicitly agrees
 
 ### Push Flow
 
-{{<svg src="push-flow.mmd.svg" title="Data Transfer - Push Flow">}}
+![Data Transfer - Push Flow](push-flow.mmd)
 
 1. A requestor initiates a Push transfer when it wants to send data to another party.
 2. The requestors' data transfer module will send a push request to the responder along with the data transfer voucher. It also puts the data transfer in the scheduler queue, meaning it expects the responder to initiate a transfer once the request is verified
@@ -63,7 +62,7 @@ once it verifies the deal is signed and on chain
 
 ### Pull Flow
 
-{{< svg src="pull-flow.mmd.svg" title="Data Transfer - Pull Flow" >}}
+![Data Transfer - Pull Flow](pull-flow.mmd)
 
 1. A requestor initiates a Pull transfer when it wants to receive data from another party.
 2. The requestors' data transfer module will send a pull request to the responder along with the data transfer voucher.
@@ -80,7 +79,7 @@ The pull flow is ideal for retrieval deals, where the client initiates the pull 
 
 ## Alternater Pull Flow - Single Round Trip
 
-{{< svg src="alternate-pull-flow.mmd.svg" title="Data Transfer - Single Round Trip Pull Flow" >}}
+![Data Transfer - Single Round Trip Pull Flow](alternate-pull-flow.mmd)
 
 1. A requestor initiates a Pull transfer when it wants to receive data from another party.
 2. The requestor’s DTM schedules the data transfer
