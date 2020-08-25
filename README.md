@@ -122,7 +122,7 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 ```
 
 ## Page Header
-The first heading should be # Head with `---` like below and should refer to the overall title of the document.
+The first heading should be an atx style heading `# Head` and should refer to the overall title of the document.
 
 ```md
 ---
@@ -130,7 +130,6 @@ title: Storage Power Actor
 ---
 
 # Storage Power Actor
----
 
 ## Header for a section in this document
 Some text

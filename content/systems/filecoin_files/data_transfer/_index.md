@@ -8,7 +8,6 @@ dashboardTests: 0
 ---
 
 # Data Transfer in Filecoin
----
 
 _Data Transfer_ is a system for transferring all or part of a `Piece` across the network when a deal is made.
 

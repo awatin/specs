@@ -9,7 +9,6 @@ dashboardTests: 0
 ---
 
 # Payment Channels
----
 
 Payment Channels are used in the Filecoin [Retrieval Market](retrieval_market) to enable efficient off-chain payments and accounting between parties for what is expected to be series of microtransactions, specifically those occurring as part of retrieval market data retrieval.
 

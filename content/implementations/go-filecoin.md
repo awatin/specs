@@ -8,7 +8,6 @@ implRepos:
 ---
 
 # Filecoin (go-filecoin)
----
 
 The original Filecoin node implementation in Go.
 

@@ -6,7 +6,6 @@ dashboardAudit: 0
 ---
 
 # Data Transfer Protocol
----
 {{< hint info >}}
 - **Name**: Data Transfer Protocol
 - **Protocol ID**: `/fil/data-transfer/0.0.1`

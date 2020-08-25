@@ -8,7 +8,6 @@ dashboardTests: 0
 ---
 
 # Storage Deal Flow
----
 
 {{<svg src="diagrams/deal-flow.mmd.svg" title="Deal Flow Sequence Diagram">}}
 

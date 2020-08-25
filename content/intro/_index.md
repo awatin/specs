@@ -8,7 +8,6 @@ dashboardAudit: n/a
 ---
 
 # Introduction
----
 
 Filecoin is a distributed storage network based on a blockchain mechanism.
 Filecoin *miners* can elect to provide storage capacity for the network, and thereby

@@ -6,7 +6,6 @@ dashboardhidden: true
 ---
 
 # Filecoin Implementations
----
 
 In the meantime, you can follow each implementation’s progress at its respective repo on GitHub:
 

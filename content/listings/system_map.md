@@ -7,7 +7,6 @@ dashboardAudit: 0
 ---
 
 # Components
----
 
 {{< hint warning >}}
 TODO: needs content 

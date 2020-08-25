@@ -9,7 +9,6 @@ dashboardAuditURL: https://gateway.ipfs.io/ipfs/QmWR376YyuyLewZDzaTHXGZr7quL5LB1
 ---
 
 # GossipSub
----
 
 Messages and block headers along side the message references are propagated using the [gossipsub libp2p pubsub router](https://github.com/libp2p/specs/tree/master/pubsub/gossipsub). Every full node must implement and run that protocol. All pubsub messages are authenticated and must be [syntactically validated](message#message-syntax-validation) before being propagated further.
 

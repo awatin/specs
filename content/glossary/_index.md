@@ -6,8 +6,7 @@ dashboardState: incomplete
 dashboardAudit: 0
 ---
 
-# Glossary
---- 
+# Glossary 
 
 **Notes**
 

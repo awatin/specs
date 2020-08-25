@@ -8,7 +8,6 @@ implRepos:
 ---
 
 # Fuhon (cpp-filecoin)
----
 
 C++17 implementation of blockchain based digital storage
 
